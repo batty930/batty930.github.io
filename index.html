@@ -33,11 +33,11 @@
   $("#a").hide();
 
   $("#my-open-click").click(function(){
-    $("#foo").show();
+    $("#a").show();
   })
 
   $("#my-hide-click").click(function(){
-    $("#foo").hide();
+    $("#a").hide();
   })
 </script>
 	
@@ -50,19 +50,20 @@
     <div class="row">
       <div class="one-half column" style="margin-top: 25%">
         <h6>喜歡登山、戶外活動歡迎找我~</h6>
-        
-        <h4>我的連絡資訊</h4>
-        
-        <p>Instagram :  <a href="https://www.instagram.com/ljx930/">@ljx930</a>.</p>
-        <p>facebook :  <a href="https://www.facebook.com/liao930/">廖家歆</a>.</p>
+
+	<p>
+  	<h4 id="my-open-click">我的連絡資訊</h4>
+	</p>
+
+	<div id="a">
+  	<a id="my-hide-click">隱藏</a>
+  	<p>Instagram :  <a href="https://www.instagram.com/ljx930/">@ljx930</a>.</p>
+  	<p>facebook :  <a href="https://www.facebook.com/liao930/">廖家歆</a>.</p>
+	</div>
       </div>
     </div>
   </div>
-<div id="a">
-  <a id="my-hide-click">我的連絡資訊</a>
-  <p>Instagram :  <a href="https://www.instagram.com/ljx930/">@ljx930</a>.</p>
-  <p>facebook :  <a href="https://www.facebook.com/liao930/">廖家歆</a>.</p>
-</div>
+
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 </body>
