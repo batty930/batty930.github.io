@@ -31,23 +31,18 @@
    <!-- jQuery
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 	<script>
-		$(function() {
- $(document).ready(function(){
-	 
-  $("#ch").hide();
-
-  $("#my-open-click").click(function(){
-    $("#ch").show();
-  })
-
-  $("#my-hide-click").click(function(){
-    $("#ch").hide();
-  })
-    })
- })
-
 </script>
-	
+<script>
+  $(document).ready(function() {
+	  $("#ch").hide();
+	  $("#my-open-click").click(function(){
+		  $("#ch").show();
+  })
+	  $("#my-hide-click").click(function(){
+		  $("#ch").hide();
+  })
+  });
+</script>
 </head>
 <body>
 
@@ -59,8 +54,8 @@
         <h6>喜歡登山、戶外活動歡迎找我~</h6>
 
 	<div id="ch">
-	<a id="my-open-click"><button class="btn-info btn-block btn">My Information</button></a>
-  	<a id="my-hide-click">隱藏</a>
+	<a id="my-open-click"><button class="btn-info btn-block btn">我的連絡資訊</button></a>
+  	<a id="my-hide-click">隱 藏</a>
   	<p>Instagram :  <a href="https://www.instagram.com/ljx930/">@ljx930</a>.</p>
   	<p>facebook :  <a href="https://www.facebook.com/liao930/">廖家歆</a>.</p>
 	</div>
