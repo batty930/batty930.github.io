@@ -19,20 +19,7 @@
 
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-
-  <div class="header_top">
-  <div class="container clearfix">
-  <div class="header">
-  <div class="header_content container">
-  <div class="header_banner">
-  <div class="banner container">
-  <div class="swiper-slide">
-    <img src="https://i.imgur.com/un4Q1Gp.png alt="banner"">
-    <div class="banner_rect">
-	 <p>Liao's page<br>歡迎來到我的網頁</p>
-    </div>
-</div>
-     
+   
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/skeleton.css">
 
@@ -40,6 +27,20 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="icon" type="image/png" href="images/favicon.png">
 
+   <!-- jQuery
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+	<script>
+  $("#a").hide();
+
+  $("#my-open-click").click(function(){
+    $("#foo").show();
+  })
+
+  $("#my-hide-click").click(function(){
+    $("#foo").hide();
+  })
+</script>
+	
 </head>
 <body>
 
@@ -57,7 +58,11 @@
       </div>
     </div>
   </div>
-
+<div id="a">
+  <a id="my-hide-click">我的連絡資訊</a>
+  <p>Instagram :  <a href="https://www.instagram.com/ljx930/">@ljx930</a>.</p>
+  <p>facebook :  <a href="https://www.facebook.com/liao930/">廖家歆</a>.</p>
+</div>
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 </body>
