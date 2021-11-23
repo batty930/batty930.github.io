@@ -36,13 +36,11 @@
  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script>
   $(document).ready(function() {
-	  $("#ch").
-	  $("#open").click(function(){
-		  $("#ch").show();
+	  $("#ch").hide(1000);
+	  $("#open").slideToggle(1000);
+          return false;
   })
-	  $("#hide").click(function(){
-		  $("#ch").hide();
-  })
+	
   });
 </script>
 	
@@ -56,11 +54,10 @@
 		<div id="open">
 	<button class="btn-info btn-block btn"> 我 的 連 絡 資 訊 </button>
 		</div>
-		<div id="hide">
-  	<a>隱 藏</a>
+
   	<p>Instagram :  <a href="https://www.instagram.com/ljx930/">@ljx930</a>.</p>
   	<p>facebook :  <a href="https://www.facebook.com/liao930/">廖家歆</a>.</p>
-		</div>
+
 	</div>
       </div>
     </div>
